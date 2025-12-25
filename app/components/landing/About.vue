@@ -9,7 +9,7 @@ const props = defineProps<{
 const aboutParagraphs = computed(() =>
   (props.page.about?.description || '')
     .split(/\n+/)
-    .map((paragraph) => paragraph.trim())
+    .map(paragraph => paragraph.trim())
     .filter(Boolean)
 )
 </script>
