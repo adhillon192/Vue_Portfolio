@@ -1,62 +1,46 @@
-# Nuxt Portfolio Template
+# Amardeep Dhillon Portfolio
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+This is my personal portfolio built with Nuxt 3 and Nuxt UI. It showcases my experience, projects, and blog posts, and it is configured to be simple to run publicly.
 
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
+## Tech Stack
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/getting-started/installation)
+- Nuxt 3 with Nuxt UI
+- Nuxt Content for markdown/YAML-driven pages
+- Tailwind CSS for styling
+- Hosted images via CDN (Cloudinary) where needed
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-    <img alt="Nuxt Portfolio Template" src="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-  </picture>
-</a>
+## Content Structure
 
-## Quick Start
+- `content/index.yml` drives the homepage hero, about, experience, testimonials, FAQ
+- `content/projects/*.yml` holds project cards
+- `content/blog/*.md` holds blog articles
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/portfolio
-```
+Edit these files to update copy, links, and images without touching Vue components.
 
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=portfolio&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fportfolio&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fportfolio-dark.png&demo-url=https%3A%2F%2Fportfolio-template.nuxt.dev%2F&demo-title=Nuxt%20Portfolio%20Template&demo-description=A%20sleek%20portfolio%20template%20to%20showcase%20your%20work%2C%20skills%20and%20blog%20powered%20by%20Nuxt%20Content.)
-
-## Setup
-
-Make sure to install the dependencies:
+## Getting Started
 
 ```bash
 pnpm install
+pnpm dev # http://localhost:3000
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-pnpm dev
-```
-
-## Production
-
-Build the application for production:
+## Build and Preview
 
 ```bash
 pnpm build
-```
-
-Locally preview production build:
-
-```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Deployment
 
-## Renovate integration
+This app is static-friendly. Deploy the `.output/public` folder (after `pnpm build`) to any static host, or use platforms like Vercel/Netlify that run the build step automatically.
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+## Customizing
+
+- Update site text and data in `content/`
+- Global settings (name, avatar, links) live in `app/app.config.ts`
+- Components for sections are in `app/components/landing/`
+
+## License
+
+MIT

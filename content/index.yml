@@ -2,68 +2,55 @@ seo:
   title: "Amardeep Singh Dhillon - IT Professional"
   description: "Welcome to my portfolio! I'm Amardeep Singh Dhillon, an IT professional specializing in development, business solutions, technical support, and comprehensive IT consulting. Graduating with a Bachelor's in Computer Information Systems."
 title: "Hi, I am Amardeep Dhillon, an IT professional"
-description: "Bridging technology and business to deliver innovative solutions. From front-end development to network architecture, I transform complex challenges into streamlined digital experiences."
+description: 
+  Bridging technology and business to deliver innovative solutions.
+  From front-end development to network architecture, I transform complex challenges into streamlined digital experiences.
 hero:
-  links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-templates/portfolio
-      color: "neutral"
+  
   images:
-    - src: /hero/random-1.avif
-      alt: Conference & Hackathon 1
-    - src: /hero/random-2.avif
-      alt: Conference & Hackathon 2
-    - src: /hero/random-3.avif
-      alt: Conference & Hackathon 3
-    - src: /hero/random-4.avif
-      alt: Conference & Hackathon 4
-    - src: /hero/random-5.avif
-      alt: Conference & Hackathon 5
-    - src: /hero/random-6.avif
-      alt: Conference & Hackathon 6
-    - src: /hero/random-7.avif
-      alt: Conference & Hackathon 7
-    - src: /hero/random-8.avif
-      alt: Conference & Hackathon 8
-    - src: /hero/random-9.avif
-      alt: Conference & Hackathon 9
+    - src: 'https://res.cloudinary.com/dlyo71nyt/image/upload/f_auto,q_auto/FoodCentreVolunteering_hnh7ci.heic'
+      alt: Food Centre Volunteering
+    - src: 'https://res.cloudinary.com/dlyo71nyt/image/upload/GoogleDeveloperYYC_xvff79.jpg'
+      alt: Google Developer
+    - src: 'https://res.cloudinary.com/dlyo71nyt/image/upload/ISACACalgaryChapter_AGM_hqebsd.jpg'
+      alt: ISACA Calgary Chapter AGM
+    
 about:
   title: "About Me"
-  description: |
-    I'm completing my Bachelor's degree in Computer Information Systems, a unique program that bridges the gap between technology and business. This interdisciplinary education has equipped me with both technical expertise and business acumen, allowing me to understand not just how to build solutions, but why they matter.
-    My skillset spans from front-end development and network infrastructure to business strategy and technical support, making me a versatile IT professional ready to tackle diverse challenges in the digital landscape.
+  description: 
+    I completed my Bachelor's degree in Computer Information Systems, a unique program that bridges the gap between technology and business. 
+   
+    This interdisciplinary education along with my work experience equipped me with both technical expertise and business acumen,
+    allowing me to understand not just how to build solutions, but why they matter.
+    
+    My skillset spans from front-end development and network infrastructure to business strategy and technical support, 
+    making me a versatile IT professional ready to tackle diverse challenges in the digital landscape.
+  
+
 experience:
   title: Experience
   items:
-    - position: "AR VR Content Developer at"
+    - position: "Content Developer at"
       date: "January - July 2024"
       company:
         name: City of Calgary
-        logo: "i-simple-icons-googlemaps"
         url: "https://www.calgary.ca"
-        color: "#D0011B"
-    - position: "Sustainable Advocacy Campaign (SAC) Lead at"
+        color: "#000000"
+    - position: " Campaign Lead at"
       date: "Sept 2023 - Sept 2024"
       company:
         name: Student Changemaker Network (SCN)
-        logo: "i-simple-icons-leaflet"
-        url: "#"
-        color: "#10B981"
+        color: "#000000"
 testimonials:
   - quote: "Amardeep demonstrated exceptional dedication and technical proficiency throughout his academic journey. His ability to bridge technical concepts with practical business applications sets him apart. He consistently showed initiative in tackling complex problems and delivered solutions that exceeded expectations."
     author:
-      name: 'Professor Name'
+      name: 'Said Baadel, Ph.D'
       description: 'Professor, Computer Information Systems'
-      avatar:
-        src: 'https://via.placeholder.com/40'
-        srcset: 'https://via.placeholder.com/80 2x'
+      
   - quote: "Working alongside Amardeep has been an incredible experience. His technical skills combined with his collaborative approach make him an invaluable team member. He brings fresh perspectives to every challenge and isn't afraid to dive deep into new technologies."
     author:
       name: 'Jashan Singh'
       description: 'Colleague & Collaborator'
-      avatar:
-        src: 'https://via.placeholder.com/40'
-        srcset: 'https://via.placeholder.com/80 2x'
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
@@ -84,12 +71,12 @@ faq:
             Yes! I have hands-on experience with network design, configuration, troubleshooting, and maintenance. I'm comfortable working with routers, switches, firewalls, and various network protocols. I can handle everything from small office setups to more complex enterprise network challenges.
     - title: Background & Education
       questions:
-        - label: When do you graduate?
+        - label: What's is your highest education completed?
           content: |
-            I will be completing my Bachelor's degree in Computer Information Systems in December 2025. I'm currently in my final semester and excited to apply everything I've learned to real-world challenges.
+            I completed my Bachelor's degree in Computer Information Systems in December 2025 and I am excited to apply everything I've learned to real-world challenges.
         - label: What kind of work experience do you have?
           content: |
-            I worked as an AR/VR Content Developer at the City of Calgary from January to July 2024, where I created immersive digital experiences. I also served as the Sustainable Advocacy Campaign Lead for the Student Changemaker Network from September 2023 to September 2024, where I led initiatives combining technology and social impact.
+            I worked as a Content Developer at the City of Calgary from January to July 2024, where I created immersive digital experiences. I also served as the  Campaign Lead for the Student Changemaker Network from September 2023 to September 2024, where I led initiatives combining technology and social impact.
         - label: What kind of projects are you interested in?
           content: |
             I'm particularly interested in projects that leverage my diverse skill set—whether it's building modern web applications, designing network solutions, providing IT consulting for businesses, or offering technical support. I'm especially drawn to opportunities that require both technical expertise and business understanding.
